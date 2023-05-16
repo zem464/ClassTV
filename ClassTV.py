@@ -26,8 +26,13 @@ class TV:
             self.channel = channel
         
     # Getting the volume
+    def get_volume(self):
+        return self.volume
         
     # Setting the volume
+    def volume_setting(self, volume):
+        if self.TV_on and 1 <= volume <= 7:
+            self.volume = volume
         
     # Switching channels up
         
