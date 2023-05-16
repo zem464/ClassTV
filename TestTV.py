@@ -2,6 +2,9 @@
 from ClassTV import TV
 
 # Create a program for testing
+def TestTV():
+    tv1 = TV("", "")
+    tv2 = TV("", "")    
 
 # Assign the values for TV1
 
