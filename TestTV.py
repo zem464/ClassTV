@@ -17,5 +17,7 @@ def TestTV():
     tv2.TV_on()
 
     # Print the values
+    print("TV1's channel is", tv1.get_channel(), "and the volume level is", tv1.get_volume())
+    print("TV2's channel is", tv2.get_channel(), "and the volume level is", tv2.get_volume())
 
 # End the program
