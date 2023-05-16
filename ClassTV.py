@@ -34,7 +34,7 @@ class TV:
         if self.TV_on and 1 <= volume <= 7:
             self.volume = volume
         
-    # Switching channels up
+     # Switching channels up
     def channel_up(self):
         switch_up = self.channel_setting + 1
         return switch_up
