@@ -9,8 +9,12 @@ class TV:
 # Create an instance method for:
         
     # Turned ON TV
-        
+    def TV_on(self):
+        self.TV_on = True
+    
     # Turned OFF TV
+    def TV_off(self):
+        self.TV_on = False
         
     # Getting the channel
         
