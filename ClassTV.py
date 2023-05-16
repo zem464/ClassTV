@@ -45,5 +45,11 @@ class TV:
         return switch_down
         
     # Turning volume up
+    def volume_up(self):
+        turn_up = self.volume_setting() + 1
+        return turn_up
         
     # Turning volume down
+    def volume_down(self):
+        turn_down = self.volume_setting() - 1
+        return turn_down
