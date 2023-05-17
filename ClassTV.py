@@ -35,21 +35,25 @@ class TV:
             self.volume = volume
         
      # Switching channels up
-    def channel_up(self):
-        switch_up = self.channel_setting + 1
-        return switch_up
+    def channel_up(self, switch_up):
+        if self.TV_on and 1 <= channel <= 120:
+            self.switch_up = self.channel_setting + 1
+            return self.switch_up
         
     # Switching channels down
-    def channel_down(self):
-        switch_down = self.channel_setting() - 1
-        return switch_down
+    def channel_down(self, switch_down):
+        if self.TV_on and 1 <= channel <= 120:
+            self.switch_down = self.channel_setting() - 1
+            return self.switch_down
         
     # Turning volume up
-    def volume_up(self):
-        turn_up = self.volume_setting() + 1
-        return turn_up
+    def volume_up(self, turn_up):
+        if self.TV_on and 1 <= volume <= 7:
+            self.turn_up = self.volume_setting() + 1
+            return self.turn_up
         
     # Turning volume down
-    def volume_down(self):
-        turn_down = self.volume_setting() - 1
-        return turn_down
+    def volume_down(self, turn_down):
+        if self.TV_on and 1 <= volume <= 7:
+            self.turn_down = self.volume_setting() - 1
+            return self.turn_down
