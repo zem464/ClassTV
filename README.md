@@ -43,6 +43,6 @@ Create a Python Code for creating the Class named TV and a Test Driver program n
 ### Contact
 Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
 
-**Project Link :** https://github.com/zem464/ClassTV.git
+**Output Link :** https://drive.google.com/file/d/1m_UfAFEPKkPh_FgXhMFayjdOHr6q_uFD/view?usp=drive_link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
